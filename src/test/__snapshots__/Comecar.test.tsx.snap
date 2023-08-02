@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`descreve a pagina inicial deve ser renderizada corretamente 1`] = `
+<div>
+  <div
+    class="divPrincipal"
+  >
+    <h1>
+      Vamos começar!
+    </h1>
+    <div
+      class="divInput"
+    >
+      <form>
+        <input
+          placeholder="Adicionar nome dos participantes"
+          value=""
+        />
+        <button
+          disabled=""
+          type="submit"
+        >
+          Adicionar
+        </button>
+      </form>
+    </div>
+    <div
+      class="divLista"
+    />
+    <div
+      class="divFooter"
+    >
+      <button
+        disabled=""
+        role="btn_enviar"
+      >
+        <img
+          alt="play"
+          src="play.png"
+          style="height: 20px; width: 20px; margin-right: 20px;"
+        />
+        <p>
+          Iniciar brincadeira!
+        </p>
+      </button>
+      <img
+        alt="sacola"
+        src="sacolas.png"
+      />
+    </div>
+  </div>
+</div>
+`;

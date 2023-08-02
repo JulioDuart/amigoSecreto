@@ -1,0 +1,47 @@
+.titulo {
+    font-size: 25px;
+    color: #1D5D9B;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tabela {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #1D5D9B;
+
+    .linha_cabecalho {
+        display: flex;
+        background-color: #ACFADF;
+    }
+
+    .coluna_cabecalho {
+        padding: 15px 40px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #1D5D9B;
+        font-size: 15px;
+        font-weight: bold;
+        color: #1D5D9B;
+        width: 250px;
+        text-align: center;
+    }
+
+    .linha_tabela {
+        display: flex;
+
+        &:hover {
+            background-color: rgb(190, 190, 190);
+        }
+    }
+
+    .coluna_tabela {
+        padding: 15px 40px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #1D5D9B;
+        font-size: 15px;
+        width: 250px;
+        text-align: center;        
+    }
+}
